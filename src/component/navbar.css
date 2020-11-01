@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.font {
+  color: white;
+}

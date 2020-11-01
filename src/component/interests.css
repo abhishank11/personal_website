@@ -1,0 +1,46 @@
+#black_font {
+  color: black;
+}
+
+.body_3 {
+  background-color: rgb(255, 255, 255);
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrap {
+  margin: 20px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.wrap #interests {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap:hover #interests {
+  filter: blur(2px) brightness(60%);
+}
+
+#interests {
+  box-shadow: 2px 2px 20px black;
+  transition: 0.5s;
+}
+
+.wrap :not(#interests) {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.2em;
+  top: 2%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5ms;
+}
+
+.wrap:hover :not(#interests) {
+  opacity: 1;
+}

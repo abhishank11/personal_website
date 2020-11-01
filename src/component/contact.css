@@ -1,0 +1,36 @@
+.wrap_contact {
+  background-color: #f1f3f7;
+  margin-bottom: 20px;
+}
+
+.new_font {
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.separator {
+  width: 2px;
+  height: 200px;
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.form_text {
+  font-size: 0.7em;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
